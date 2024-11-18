@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda - Médico</title>
+    <link rel="stylesheet" href="./assets/css/medico.css">
+    <script src="./assets/js/pacienteMedico.js" defer></script>
+    <script src="./assets/js/volta.js" defer></script>
+</head>
+<body onload="getAppointments()">
+
+    <div class="container">
+        <h1>Agenda Médica - Médico</h1>
+        <label for="doctorId">Digite seu ID:</label>
+        <input type="number" id="doctorId" placeholder="Seu ID" min="1" required>
+        <div id="appointmentsList">
+            <p>As consultas apareceram aqui!</p>
+        </div>
+        <button id="exit">Voltar</button>
+    </div>
+</body>
+</html>

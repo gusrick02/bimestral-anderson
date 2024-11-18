@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e2dede;
+}
+
+.cadastros{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.cadastros-personazilados{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 350px;
+    height: 510px;
+    box-shadow: 20px 20px 24px 8px rgba(105,101,101,0.75);
+    -webkit-box-shadow: 20px 20px 24px 8px rgba(105,101,101,0.75);
+    -moz-box-shadow: 20px 20px 24px 8px rgba(105,101,101,0.75);
+    border-radius: 20px;
+}
+
+.cadastros-personazilados h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 2.8vh;
+}
+
+form label{
+    margin-left: 40px;
+    display: flex;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form input{
+    margin-left: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #000000;
+    background: rgba(255, 255, 255, 0.315);
+    width: 250px;
+    height: 22px;
+}
+
+button{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    height: 4vh;
+    width: 20vh;
+    font-size: 2vh;
+    background: steelblue;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #a0d7ec;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background: #d4d4d4;
+    color:steelblue;
+}

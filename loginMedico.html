@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <script src="./assets/js/volta.js" defer></script>
+    <script src="./assets/js/pacienteMedico.js" defer></script>
+
+    <title>Login Médico</title>
+</head>
+<body>
+    <div class="login">
+        <div class="login-personalizado">
+            <h2>Login Médico</h2>
+
+            <form id="doctorLoginForm">
+
+                <label for="loginEmail">Email:</label>
+                <input type="email" id="loginEmail" name="email" placeholder="E-mail" required>
+                <br>
+
+                <label for="loginSenha">Senha:</label>
+                <input type="password" id="loginSenha" name="senha" placeholder="Senha" required>
+                <br><br>
+
+                <button type="button"id="pagseguinte">Entrar</button>
+            </form>
+
+            <script>
+                document.getElementById('pagseguinte').addEventListener('click', function() {
+     window.location.href = 'paginaMedico.html';
+ });
+             </script>
+            <button id="exit">Voltar</button>
+        </div>
+    </div>
+</body>
+</html>

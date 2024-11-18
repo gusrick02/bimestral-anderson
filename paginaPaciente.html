@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda - Paciente</title>
+    <link rel="stylesheet" href="./assets/css/paciente.css">
+    <script src="./assets/js/volta.js" defer></script>
+    <script src="./assets/js/pacienteMedico.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda Médica - Paciente</h1>
+        <form id="patientForm" onsubmit="scheduleAppointment(event)">
+
+            <label for="description">Descrição:</label>
+            <textarea id="description" placeholder="Descreva o que está sentindo" required></textarea>
+
+            <label for="date">Data da Consulta:</label>
+            <input type="date" id="date" required>
+
+            <label for="doctor">Médico:</label>
+            <input type="text" id="doctor" placeholder="Digite o nome do médico" required>
+
+            <button type="button">Agendar Consulta</button>
+        </form>
+        <button id="exit">Voltar</button>
+    </div>
+</body>
+</html>

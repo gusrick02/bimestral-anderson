@@ -1,0 +1,15 @@
+cadastro paciente{
+    cpf
+    nome
+    email
+    senha
+}
+
+cadastro medico{
+    crm
+    nome
+    email
+    senha
+}
+
+mudar os id repitidos caso for usa, tanto no cadastro paciente e cadastro medico, alem disso mudar tambem o do login caso tiver repitido.

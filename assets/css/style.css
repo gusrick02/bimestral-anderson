@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../img/fundo-inicial.jpg') top center no-repeat;
+    background-size: cover;
+}
+#home-personalizar{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+#home{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 350px;
+    height: 450px;
+    box-shadow: 29px 15px 27px 8px rgba(120,112,112,0.75);
+    -webkit-box-shadow: 29px 15px 27px 8px rgba(120,112,112,0.75);
+    -moz-box-shadow: 29px 15px 27px 8px rgba(120,112,112,0.75);
+    border-radius: 20px;
+}
+
+#titulo h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 2.8vh;
+}
+
+#titulo p{
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.6vh;
+    margin-bottom: 30px;
+    color: steelblue;
+
+}
+
+#cadastro h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2.5vh;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+#cadastro button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    height: 4vh;
+    width: 20vh;
+    font-size: 2vh;
+    background: steelblue;
+    color: white;
+    border: 1px solid #a0d7ec;
+    border-radius: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/cadastro.css">
+    <script src="./assets/js/volta.js" defer></script>
+    <script src="./assets/js/pacienteMedico.js" defer></script>
+    <title>Cadastro Médico</title>
+</head>
+<body>
+    <div class="cadastros">
+        <div class="cadastros-personazilados">
+            <h2>Cadastrar médicos</h2>
+            <form id="doctorRegisterForm">
+
+                <label for="crm">CRM:</label>
+                <input type="text" id="crm" name="CRM" placeholder="CRM" required>
+                <br>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                <br>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Senha" required>
+                <br><br>
+
+                <button type="button" id="pagseguinte">Cadastrar</button>
+            </form>
+
+            <script>
+               document.getElementById('pagseguinte').addEventListener('click', function() {
+    window.location.href = 'paginaMedico.html';
+});
+            </script>
+
+                <button id="exit">Voltar</button>
+        </div>
+    </div>
+</body>
+</html>
